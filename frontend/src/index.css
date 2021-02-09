@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'PingFangSc';
+    src: local('PingFangSc'), url(./fonts/pingfang.ttf) format('truetype');
+  }
+
+@font-face {
+    font-family: 'PingFangSc-Bold';
+    src: local('PingFangSc-Bold'), url(./fonts/PingFang-SC-Bold.ttf) format('truetype');
+  }

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="42" viewBox="0 0 64 42">
+    <defs>
+        <radialGradient id="a" cx="33.582%" cy="18.955%" r="100%" fx="33.582%" fy="18.955%" gradientTransform="matrix(0 1 -.65625 0 .46 -.146)">
+            <stop offset="0%" stop-color="#71C8F2"/>
+            <stop offset="100%" stop-color="#0071BD"/>
+        </radialGradient>
+        <rect id="b" width="64" height="42" rx="3"/>
+        <filter id="c" width="101.6%" height="102.4%" x="-.8%" y="-1.2%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" radius="1" result="shadowSpreadInner1"/>
+            <feOffset in="shadowSpreadInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="64" height="42" fill="url(#a)" rx="3"/>
+        <use fill="#E5E5E5" fill-opacity="0" xlink:href="#b"/>
+        <use fill="#000" filter="url(#c)" xlink:href="#b"/>
+        <path fill="#1793C0" fill-opacity="0" stroke="#FFF" stroke-width="2" d="M22.597 26h-4.58l-.775-1.782h-2.527L13.912 26H9.405l4.84-10h3.566l4.786 10zm11.33 0h-4.108v-1.989L28.929 26h-3.032l-.885-1.98-.01 1.98h-4.103V16h4.825l1.72 3.95L29.09 16h4.836v10zm-.021-10h9.658v3.479h-.445v3.042h.56V26h-9.773V16zM55.03 26h-5.329l-1.767-2.186-1.8 2.186H40.97l4.419-5.185L41.221 16h5.285l1.535 1.954L49.631 16h5.12l-4.144 4.823L55.03 26z"/>
+    </g>
+</svg>

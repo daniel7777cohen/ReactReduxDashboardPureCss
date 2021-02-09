@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="42" viewBox="0 0 64 42">
+    <defs>
+        <rect id="a" width="64" height="42" rx="3"/>
+        <filter id="b" width="101.6%" height="102.4%" x="-.8%" y="-1.2%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" radius="1" result="shadowSpreadInner1"/>
+            <feOffset in="shadowSpreadInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="64" height="42" fill="#F4F6F7" rx="3"/>
+        <path fill="#4095DB" d="M0 3c0-1.657 1.337-3 3.001-3h57.998A3.004 3.004 0 0 1 64 3v7H0V3z"/>
+        <path fill="#F4B662" d="M0 32h64v7c0 1.657-1.337 3-3.001 3H3.001A3.004 3.004 0 0 1 0 39v-7z"/>
+        <path fill="#0071CE" d="M33.767 27c3.042 0 5.02-1.559 5.042-3.97.01-1.326-.76-2.33-2.432-3.16-1.012-.538-1.633-.896-1.625-1.441 0-.483.524-1 1.658-1a4.935 4.935 0 0 1 2.167.446l.26.133.392-2.52A6.948 6.948 0 0 0 36.635 15c-2.863 0-4.878 1.578-4.895 3.837-.018 1.67 1.438 2.603 2.536 3.158 1.128.57 1.507.934 1.503 1.443-.008.778-.9 1.135-1.733 1.135-1.16 0-1.775-.176-2.727-.61l-.373-.185-.405 2.602c.675.324 1.927.605 3.226.62zm-5.04-.172l1.811-11.625h-2.895L25.83 26.828h2.896zm16.761-4.122c-.114-.581-.67-3.356-.67-3.356l-.195-1.002c-.146.435-.402 1.14-.385 1.109 0 0-.913 2.58-1.153 3.25zm-26.642 4.112l3.065-.002 4.56-11.604h-3.069l-2.834 7.926-.303-1.611-1.015-5.342c-.175-.736-.684-.955-1.313-.98h-4.669l-.038.24c1.136.302 2.152.736 3.043 1.276l2.573 10.097zm22.797.014s.496-1.433.609-1.748h.613c.982.003 2.774.006 3.095.006.087.406.353 1.742.353 1.742H49l-2.343-11.618h-2.238c-.694 0-1.213.206-1.517.964l-4.3 10.654h3.04z"/>
+        <use fill="#E5E5E5" fill-opacity="0" xlink:href="#a"/>
+        <use fill="#000" filter="url(#b)" xlink:href="#a"/>
+    </g>
+</svg>
